@@ -1,11 +1,11 @@
-import { Controller } from '@angular/common';
-import { OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
-@Controller({
-    
+@Component({
+    selector: 'dashboard',
+    templateUrl: './dashboard.component.html' // need to declare the html explicitly
 })
 
-export class DashboardController implements OnInit{
+export class DashboardComponent implements OnInit{
     
     constructor(){
 
